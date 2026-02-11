@@ -1,0 +1,7 @@
+linux - full of files only - everthing is a file
+
+#Inode
+1file = 1inode
+In traditional file systems (like ext3/ext4), the total number of inodes is fixed when the partition is formatted. 
+An inode is a data structure on a filesystem that stores metadata about a file or directory—such as file size, permissions, ownership, and location on the disk.
+inode bursting - a condition in Linux-based file systems where all available inodes (index nodes) are used up, preventing the creation of new files or directories, even if the disk has plenty of free storage space. 
